@@ -257,8 +257,8 @@ p {
   text-transform: none;
   color: #ffffff;
   max-width: 496px;
-}
-.hero-title-container {
+  margin: auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -411,7 +411,7 @@ p {
 .team-desc {
   font-size: 16px;
   font-family: 'Roboto';
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -419,6 +419,7 @@ p {
   text-transform: none;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .socials {
@@ -489,13 +490,8 @@ p {
 /* Footer styles */
 
 .footer {
-  max-width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
   padding: 100px 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-left: 156px;
 }
 .footer-container {
   display: flex;
@@ -568,8 +564,6 @@ p {
   color: #f4f4fd;
 
   width: 264px;
-  height: 72px;
-  margin-bottom: 100px;
 }
 .span {
   color: #f4f4fd;
