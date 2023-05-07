@@ -170,7 +170,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-ocean);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav-logo {
   font-family: Raleway, sans-serif;
@@ -207,7 +209,6 @@ p {
 .header-nav-link.active::after {
   background-color: var(--color-ocean);
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-logo-studio {
@@ -240,11 +241,12 @@ p {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Section-Hero */
@@ -461,6 +463,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -500,6 +504,9 @@ p {
   align-items: center;
   justify-content: center;
   color: var(--color-light-slate);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-link:hover,
 .customers-link:focus {
@@ -548,6 +555,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link-footer:hover,
 .socials-link-footer:focus {
@@ -645,7 +654,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-ocean);
 }
 .header-nav-logo {
   font-family: Raleway, sans-serif;
